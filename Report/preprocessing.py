@@ -3,7 +3,6 @@
 import tensorflow as tf
 from keras_cv import layers as kcvl
 from tensorflow.keras.layers import Resizing # type: ignore
-import numpy as np
 import matplotlib.pyplot as plt
 
 # Augmentation pipeline parameters
