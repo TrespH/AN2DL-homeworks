@@ -13,7 +13,7 @@ Tanguy Rolland
 In this first challenge, we face an image classification problem on a blood cells dataset. Our goal was to reach good accuracy on remote test set while achieving a great understanding of the methods to reach the best robustness.
 
 The training set consists of circa 11000 samples of 10 classes of blood cells, with a resolution of 128x128 pixels, RGB:
-![alt text](image-1.png)
+![alt text](cells-sample.png)
 
 We have used many data augmentation techniques and trained a variety of CNNs, while optimizing hyperparameters for a more efficient training.
 
@@ -27,7 +27,7 @@ However, with further enhancement of the MobileNetV2 pretrained model, we could 
 In this second challenge, we face an semantic segmentation problem on a mars surface dataset. Contrary to the first challenge, we put more focus on the models architectures and losses, since we already learnt how to implement a consistent augmentation pipeline from the former challenge.
 
 The dataset consists of segmented 64x128 greyscale images from Mars terrain. Each image is paired with a mask representing the class of each pixel (Class Labels are: Background, Soil, Bedrock, Sand, Big Rock). Here is an example:
-![alt text](image.png)
+![alt text](mars-sample.png)
 
 Since we couldn’t make use of pretrained models, hyperparameters tuning and training efficacy was paramount.
 
